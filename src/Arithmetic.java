@@ -1,9 +1,3 @@
-/*
- *
- * to_do: loop
- *
- * */
-
 import java.util.Scanner;
 
 public class Arithmetic {
