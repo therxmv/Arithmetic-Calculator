@@ -73,7 +73,7 @@ class ArithmeticProgress {
         }
     }
 
-//-----Find Elements-----
+//Формулы
     public void findA1(){
         d();
         an();
@@ -118,7 +118,7 @@ class ArithmeticProgress {
         System.out.println("sn = " + sn);
     }
 
-//-----Get Elements-----
+//Элементы
     public void a1(){
         boolean error = true;
         // Проверка на валидность ввода
