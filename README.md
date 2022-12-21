@@ -6,3 +6,5 @@
 * an - n-ый член прогресии;
 * n - порядковый номер члена прогресии;
 * sn - сумма первых n членов.
+
+[:paperclip: NumSysConverter](https://t.me/therxmv_channel/25) - Android application for calculating arithmetic and geometric progression.
