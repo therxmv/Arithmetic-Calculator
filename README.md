@@ -1,10 +1,10 @@
 # Arithmethic Calculator
-Калькулятор арифметической прогрессии, умеет считать: a1, n, an, sn (доступны две формулы, через an и d).
+Arithmetic progression calculator, knows how to count: a1, n, an, sn (two formulas are available, through an and d).
 
-* a1 - первый член прогресии;
-* d - разность;
-* an - n-ый член прогресии;
-* n - порядковый номер члена прогресии;
-* sn - сумма первых n членов.
+* a1 - first member of the progression;
+* d - difference;
+* an - the n-th term of the progression;
+* n - order number of a member of the progression;
+* sn - sum of the first n members of the progression.
 
 [:paperclip: NumSysConverter](https://t.me/therxmv_channel/25) - Android application for calculating arithmetic and geometric progression.
