@@ -7,14 +7,14 @@ public class Arithmetic {
                 ********************************************
                 *           Arithmetic Calculator          *
                 *                                          *
-                * Калькулятор умеет считать: a1, n, an,    *
-                * sn(доступны две формулы, через an и d).  *
+                * Arithmetic progression calculator, knows *
+                * how to count: a1, n, an, sn.             *
                 *                                          *
-                * a1 - первый член прогресии;              *
-                * d - разность;                            *
-                * an - n-ый член прогресии;                *
-                * n - порядковый номер члена прогресии;    *
-                * sn - сумма первых n членов.              *
+                * a1 - first member of the progression;    *
+                * d - difference;                          *
+                * an - the n-th term of the progression;   *
+                * n - order number;                        *
+                * sn - sum of the first n members.         *
                 *                                          *
                 ********************************************
                 """);
@@ -72,7 +72,7 @@ class ArithmeticProgress {
         }
     }
 
-//Формулы
+// Formulas
     private void findA1(){
         d(); an(); n();
 
@@ -107,7 +107,7 @@ class ArithmeticProgress {
         System.out.println("sn = " + sn);
     }
 
-//Элементы
+// Elements
     private void a1(){
         System.out.print("Введите a1 >> ");
         a1 = validator();
@@ -125,7 +125,7 @@ class ArithmeticProgress {
         n = validator();
     }
 
-//Ввод числа и проверка
+// check input
     private double validator(){
         boolean error = true;
         double i = 0;
